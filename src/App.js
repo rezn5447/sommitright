@@ -16,6 +16,7 @@ import S1 from './assets/Slide1.png';
 import S2 from './assets/Slide2.png';
 import S3 from './assets/Slide3.png';
 import PH from './assets/PlaceHolder.svg';
+import TD from './assets/thumbnaildiv.png';
 
 import './App.css';
 
@@ -67,32 +68,29 @@ class App extends Component {
       <Grid>
          <Row>
          <Col xs={6} md={4}>
-           <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
-             <h3>Thumbnail label</h3>
-             <p>Description</p>
+           <Thumbnail src={TD} alt="242x200">
+             <h3>Blog Post #1</h3>
+             <p>A small snippet of what you wrote here with a link to view more</p>
              <p>
-               <Button bsStyle="primary">Button</Button>&nbsp;
-               <Button bsStyle="default">Button</Button>
+               <Button bsStyle="default">View Details >></Button>
              </p>
            </Thumbnail>
          </Col>
          <Col xs={6} md={4}>
-           <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
-             <h3>Thumbnail label</h3>
-             <p>Description</p>
+           <Thumbnail src={TD} alt="242x200">
+             <h3>Blog Post #2</h3>
+             <p>A small snippet of what you wrote here with a link to view more</p>
              <p>
-               <Button bsStyle="primary">Button</Button>&nbsp;
-               <Button bsStyle="default">Button</Button>
+               <Button bsStyle="default">View Details >></Button>
              </p>
            </Thumbnail>
          </Col>
          <Col xs={6} md={4}>
-           <Thumbnail src="/assets/thumbnaildiv.png" alt="242x200">
-             <h3>Thumbnail label</h3>
-             <p>Description</p>
+           <Thumbnail src={TD} alt="242x200">
+             <h3>Blog Post #3</h3>
+             <p>A small snippet of what you wrote here with a link to view more</p>
              <p>
-               <Button bsStyle="primary">Button</Button>&nbsp;
-               <Button bsStyle="default">Button</Button>
+               <Button bsStyle="default">View Details >></Button>
              </p>
            </Thumbnail>
          </Col>
