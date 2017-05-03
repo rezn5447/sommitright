@@ -15,6 +15,9 @@ import logo from './assets/logo.svg';
 import S1 from './assets/Slide1.png';
 import S2 from './assets/Slide2.png';
 import S3 from './assets/Slide3.png';
+import Img1 from './assets/Wine/1/1.jpg';
+import Img2 from './assets/Wine/2/2.jpg';
+import Img3 from './assets/Wine/3/3.jpg';
 import PH from './assets/PlaceHolder.svg';
 import TD from './assets/thumbnaildiv.png';
 
@@ -100,11 +103,15 @@ class App extends Component {
        <hr className="featurette-divider" />
        <div className="row featurette">
          <div className="col-md-7">
-           <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It'll blow your mind.</span></h2>
-           <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           <h2 className="featurette-heading">Au Bon Climat  <span className="text-muted">  Santa Barbara, California</span></h2>
+           <p className="lead">
+             I had the pleasure of doing a tasting at au bon climate this week.
+             This Pinot noir was one of my favorites. Light bodied, with some minerality and some ripe cherry on the nose.
+             Limited cases produced. I recommend this wine with an appetizer before dinner or if you want a red wine on a hot day
+           </p>
          </div>
          <div className="col-md-5">
-           <img className="featurette-image img-responsive center-block" src={PH} alt="Generic placeholder image"/>
+           <img className="featurette-image img-responsive center-block" src={Img1} alt="Generic placeholder image"/>
          </div>
        </div>
 
@@ -112,48 +119,33 @@ class App extends Component {
 
        <div className="row featurette">
          <div className="col-md-5">
-           <img className="featurette-image img-responsive center-block" src={PH} alt="Generic placeholder image"/>
+           <img className="featurette-image img-responsive center-block" src={Img2} alt="Generic placeholder image"/>
          </div>
          <div className="col-md-6">
-           <h2 className="featurette-heading">First Wine of the Week. <span className="text-muted">It'll blow your mind.</span></h2>
-           <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+           <h2 className="featurette-heading">First Tasting of the Week. <span className="text-muted">Santa Barbara, California.</span></h2>
+           <p className="lead">
+              A great time wine tasting with @mmazess
+              #cantcomplain #santabarbara #california #wine #winetime #winetasting
+              #goodday #goodtimes #goodvibes #sauvignonblanc #cabernetsauvignon #bordeux
+              #bordeauxblends #sommelier #sommelierlife #whitewine #redwine #catchingup
+              #glasses #yes #wineandsunsets #winery
+           </p>
          </div>
        </div>
 
        <hr className="featurette-divider" />
          <div className="row featurette">
            <div className="col-md-5">
-             <img className="featurette-image img-responsive center-block" src={PH} alt="Generic placeholder image"/>
+             <img className="featurette-image img-responsive center-block" src={Img3} alt="Generic placeholder image"/>
            </div>
            <div className="col-md-6">
-             <h2 className="featurette-heading">First Wine of the Week. <span className="text-muted">It'll blow your mind.</span></h2>
-             <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+             <h2 className="featurette-heading">Ristorante Trattoria Da Conte     <span className="text-muted">Klosterneuburg, Austria</span></h2>
+             <p className="lead">
+               Awesome primitivo aka Zinfandel with Gorgonzola pasta.
+               I am in love with all wines but with this pairing I would have to say what grows together goes together.
+             </p>
            </div>
          </div>
-
-         <hr className="featurette-divider" />
-           <div className="row featurette">
-             <div className="col-md-7 col-md-push-5">
-               <h2 className="featurette-heading">First Wine of the Week. <span className="text-muted">It'll blow your mind.</span></h2>
-               <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-             </div>
-             <div className="col-md-5 col-md-pull-7">
-               <img className="featurette-image img-responsive center-block" src={PH} alt="Generic placeholder image"/>
-             </div>
-           </div>
-
-           <hr className="featurette-divider" />
-             <div className="row featurette">
-               <div className="col-md-5">
-                 <img className="featurette-image img-responsive center-block" src={PH} alt="Generic placeholder image"/>
-               </div>
-               <div className="col-md-6">
-                 <h2 className="featurette-heading">First Wine of the Week. <span className="text-muted">It'll blow your mind.</span></h2>
-                 <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-               </div>
-             </div>
-
-             <hr className="featurette-divider" />
 
        <footer>
          <p className="pull-right"><a href="#">Back to top</a></p>
